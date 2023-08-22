@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppointmentListComponent {
 
+  appointment: string = "Take a dog out"
+
+
 }
