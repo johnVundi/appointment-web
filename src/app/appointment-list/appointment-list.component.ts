@@ -8,6 +8,9 @@ import { Appointment } from '../models/appointment';
 })
 export class AppointmentListComponent {
 
+  newAppointmentTitle : string = ""
+  newAppointmentDate : Date = new Date
+
   appointments: Appointment[] = []
 
 
